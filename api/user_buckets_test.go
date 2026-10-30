@@ -25,16 +25,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/minio/console/pkg/auth/token"
-	"github.com/minio/console/pkg/utils"
+	"github.com/rodrigocelsius/libreio-console/pkg/auth/token"
+	"github.com/rodrigocelsius/libreio-console/pkg/utils"
 
 	"github.com/go-openapi/swag"
-	"github.com/minio/console/models"
 	"github.com/minio/madmin-go/v3"
 	"github.com/minio/mc/pkg/probe"
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/sse"
 	"github.com/minio/minio-go/v7/pkg/tags"
+	"github.com/rodrigocelsius/libreio-console/models"
 	"github.com/stretchr/testify/assert"
 )
 

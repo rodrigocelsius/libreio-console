@@ -24,13 +24,13 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/minio/console/pkg/utils"
+	"github.com/rodrigocelsius/libreio-console/pkg/utils"
 
 	"github.com/go-openapi/runtime/middleware"
-	"github.com/minio/console/api/operations"
-	release "github.com/minio/console/api/operations/release"
-	"github.com/minio/console/models"
 	"github.com/minio/pkg/v3/env"
+	"github.com/rodrigocelsius/libreio-console/api/operations"
+	release "github.com/rodrigocelsius/libreio-console/api/operations/release"
+	"github.com/rodrigocelsius/libreio-console/models"
 )
 
 var (

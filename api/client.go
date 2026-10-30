@@ -30,17 +30,17 @@ import (
 	"github.com/minio/minio-go/v7/pkg/sse"
 	xnet "github.com/minio/pkg/v3/net"
 
-	"github.com/minio/console/models"
-	"github.com/minio/console/pkg"
-	"github.com/minio/console/pkg/auth"
-	"github.com/minio/console/pkg/auth/ldap"
-	xjwt "github.com/minio/console/pkg/auth/token"
 	mc "github.com/minio/mc/cmd"
 	"github.com/minio/mc/pkg/probe"
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/credentials"
 	"github.com/minio/minio-go/v7/pkg/notification"
 	"github.com/minio/minio-go/v7/pkg/tags"
+	"github.com/rodrigocelsius/libreio-console/models"
+	"github.com/rodrigocelsius/libreio-console/pkg"
+	"github.com/rodrigocelsius/libreio-console/pkg/auth"
+	"github.com/rodrigocelsius/libreio-console/pkg/auth/ldap"
+	xjwt "github.com/rodrigocelsius/libreio-console/pkg/auth/token"
 )
 
 func init() {

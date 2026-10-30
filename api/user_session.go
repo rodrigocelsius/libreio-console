@@ -23,8 +23,8 @@ import (
 	"strconv"
 	"time"
 
-	policies "github.com/minio/console/api/policy"
 	"github.com/minio/madmin-go/v3"
+	policies "github.com/rodrigocelsius/libreio-console/api/policy"
 
 	jwtgo "github.com/golang-jwt/jwt/v4"
 	"github.com/minio/pkg/v3/policy/condition"
@@ -32,11 +32,11 @@ import (
 	minioIAMPolicy "github.com/minio/pkg/v3/policy"
 
 	"github.com/go-openapi/runtime/middleware"
-	"github.com/minio/console/api/operations"
-	authApi "github.com/minio/console/api/operations/auth"
-	"github.com/minio/console/models"
-	"github.com/minio/console/pkg/auth/idp/oauth2"
-	"github.com/minio/console/pkg/auth/ldap"
+	"github.com/rodrigocelsius/libreio-console/api/operations"
+	authApi "github.com/rodrigocelsius/libreio-console/api/operations/auth"
+	"github.com/rodrigocelsius/libreio-console/models"
+	"github.com/rodrigocelsius/libreio-console/pkg/auth/idp/oauth2"
+	"github.com/rodrigocelsius/libreio-console/pkg/auth/ldap"
 )
 
 type Conditions struct {

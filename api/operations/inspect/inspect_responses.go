@@ -28,7 +28,7 @@ import (
 
 	"github.com/go-openapi/runtime"
 
-	"github.com/minio/console/models"
+	"github.com/rodrigocelsius/libreio-console/models"
 )
 
 // InspectOKCode is the HTTP code returned for type InspectOK

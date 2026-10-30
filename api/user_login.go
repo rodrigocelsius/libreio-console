@@ -26,15 +26,15 @@ import (
 
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/runtime/middleware"
-	"github.com/minio/console/api/operations"
-	authApi "github.com/minio/console/api/operations/auth"
-	"github.com/minio/console/models"
-	"github.com/minio/console/pkg/auth"
-	"github.com/minio/console/pkg/auth/idp/oauth2"
 	"github.com/minio/madmin-go/v3"
 	"github.com/minio/minio-go/v7/pkg/credentials"
 	"github.com/minio/pkg/v3/env"
 	xnet "github.com/minio/pkg/v3/net"
+	"github.com/rodrigocelsius/libreio-console/api/operations"
+	authApi "github.com/rodrigocelsius/libreio-console/api/operations/auth"
+	"github.com/rodrigocelsius/libreio-console/models"
+	"github.com/rodrigocelsius/libreio-console/pkg/auth"
+	"github.com/rodrigocelsius/libreio-console/pkg/auth/idp/oauth2"
 )
 
 func registerLoginHandlers(api *operations.ConsoleAPI) {

@@ -1,4 +1,4 @@
-module github.com/minio/console
+module github.com/rodrigocelsius/libreio-console
 
 go 1.23
 

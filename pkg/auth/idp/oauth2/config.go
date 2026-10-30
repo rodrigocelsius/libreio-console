@@ -24,9 +24,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/minio/console/pkg/auth/token"
 	"github.com/minio/minio-go/v7/pkg/set"
 	"github.com/minio/pkg/v3/env"
+	"github.com/rodrigocelsius/libreio-console/pkg/auth/token"
 	"golang.org/x/crypto/pbkdf2"
 	"golang.org/x/oauth2"
 	xoauth2 "golang.org/x/oauth2"

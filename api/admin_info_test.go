@@ -23,12 +23,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/minio/console/pkg/utils"
+	"github.com/rodrigocelsius/libreio-console/pkg/utils"
 
-	"github.com/minio/console/api/operations"
-	systemApi "github.com/minio/console/api/operations/system"
-	"github.com/minio/console/models"
 	"github.com/minio/madmin-go/v3"
+	"github.com/rodrigocelsius/libreio-console/api/operations"
+	systemApi "github.com/rodrigocelsius/libreio-console/api/operations/system"
+	"github.com/rodrigocelsius/libreio-console/models"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 )

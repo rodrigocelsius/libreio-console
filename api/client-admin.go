@@ -28,14 +28,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/minio/console/pkg"
+	"github.com/rodrigocelsius/libreio-console/pkg"
 
-	"github.com/minio/console/pkg/utils"
+	"github.com/rodrigocelsius/libreio-console/pkg/utils"
 
-	"github.com/minio/console/models"
 	"github.com/minio/madmin-go/v3"
 	"github.com/minio/minio-go/v7/pkg/credentials"
 	iampolicy "github.com/minio/pkg/v3/policy"
+	"github.com/rodrigocelsius/libreio-console/models"
 )
 
 const globalAppName = "MinIO Console"

@@ -23,9 +23,9 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/minio/console/pkg/logger/config"
-	"github.com/minio/console/pkg/logger/target/http"
 	"github.com/minio/pkg/v3/env"
+	"github.com/rodrigocelsius/libreio-console/pkg/logger/config"
+	"github.com/rodrigocelsius/libreio-console/pkg/logger/target/http"
 )
 
 // NewConfig - initialize new logger config.

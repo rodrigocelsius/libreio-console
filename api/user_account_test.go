@@ -22,8 +22,8 @@ import (
 	"net/http"
 	"testing"
 
-	accountApi "github.com/minio/console/api/operations/account"
-	"github.com/minio/console/models"
+	accountApi "github.com/rodrigocelsius/libreio-console/api/operations/account"
+	"github.com/rodrigocelsius/libreio-console/models"
 	"github.com/stretchr/testify/assert"
 )
 

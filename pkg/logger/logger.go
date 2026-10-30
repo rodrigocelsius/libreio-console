@@ -33,13 +33,13 @@ import (
 
 	"github.com/minio/pkg/v3/env"
 
-	"github.com/minio/console/pkg"
 	"github.com/minio/pkg/v3/certs"
+	"github.com/rodrigocelsius/libreio-console/pkg"
 
-	"github.com/minio/console/pkg/logger/config"
-	"github.com/minio/console/pkg/logger/message/log"
 	"github.com/minio/highwayhash"
 	"github.com/minio/minio-go/v7/pkg/set"
+	"github.com/rodrigocelsius/libreio-console/pkg/logger/config"
+	"github.com/rodrigocelsius/libreio-console/pkg/logger/message/log"
 )
 
 // HighwayHash key for logging in anonymous mode

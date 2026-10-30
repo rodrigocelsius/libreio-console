@@ -25,8 +25,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/minio/console/models"
 	iampolicy "github.com/minio/pkg/v3/policy"
+	"github.com/rodrigocelsius/libreio-console/models"
 	"github.com/stretchr/testify/assert"
 )
 

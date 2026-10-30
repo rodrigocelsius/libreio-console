@@ -36,13 +36,13 @@ import (
 
 	"github.com/go-openapi/runtime/middleware"
 	"github.com/go-openapi/swag"
-	"github.com/minio/console/api/operations"
-	bucketApi "github.com/minio/console/api/operations/bucket"
-	"github.com/minio/console/models"
-	"github.com/minio/console/pkg/auth/token"
 	"github.com/minio/minio-go/v7/pkg/policy"
 	"github.com/minio/minio-go/v7/pkg/replication"
 	minioIAMPolicy "github.com/minio/pkg/v3/policy"
+	"github.com/rodrigocelsius/libreio-console/api/operations"
+	bucketApi "github.com/rodrigocelsius/libreio-console/api/operations/bucket"
+	"github.com/rodrigocelsius/libreio-console/models"
+	"github.com/rodrigocelsius/libreio-console/pkg/auth/token"
 )
 
 func registerBucketsHandlers(api *operations.ConsoleAPI) {

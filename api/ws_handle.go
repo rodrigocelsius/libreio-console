@@ -26,10 +26,10 @@ import (
 	"strings"
 
 	errorsApi "github.com/go-openapi/errors"
-	"github.com/minio/console/models"
-	"github.com/minio/console/pkg/auth"
-	"github.com/minio/console/pkg/utils"
 	"github.com/minio/websocket"
+	"github.com/rodrigocelsius/libreio-console/models"
+	"github.com/rodrigocelsius/libreio-console/pkg/auth"
+	"github.com/rodrigocelsius/libreio-console/pkg/utils"
 )
 
 var upgrader = websocket.Upgrader{

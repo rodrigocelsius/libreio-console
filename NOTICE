@@ -1,3 +1,7 @@
+libreio Console, (C) 2026 libreio contributors
+
+libreio Console is a fork of MinIO Console.
+
 This file is part of MinIO Console Server
 Copyright (c) 2023 MinIO, Inc.
 
@@ -13,3 +17,6 @@ GNU Affero General Public License for more details.
 
 You should have received a copy of the GNU Affero General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+MinIO is a trademark of MinIO, Inc. libreio is not affiliated with,
+endorsed by, or sponsored by MinIO, Inc.

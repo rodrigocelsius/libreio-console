@@ -23,10 +23,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/minio/console/pkg/logger"
+	"github.com/rodrigocelsius/libreio-console/pkg/logger"
 
 	"github.com/minio/cli"
-	"github.com/minio/console/api"
+	"github.com/rodrigocelsius/libreio-console/api"
 )
 
 var appCmds = []cli.Command{

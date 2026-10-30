@@ -23,9 +23,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/minio/console/pkg/logger/color"
-	"github.com/minio/console/pkg/logger/message/log"
 	c "github.com/minio/pkg/v3/console"
+	"github.com/rodrigocelsius/libreio-console/pkg/logger/color"
+	"github.com/rodrigocelsius/libreio-console/pkg/logger/message/log"
 )
 
 // Logger interface describes the methods that need to be implemented to satisfy the interface requirements.
